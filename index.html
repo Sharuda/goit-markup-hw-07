@@ -16,7 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <!-- general styles -->
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -24,11 +24,11 @@
     <header class="header-page">
       <div class="container header-page__container">
         <nav class="nav header-page__nav">
-          <a class="logo link" href="./index.html">
+          <a class="logo" href="./index.html">
             <span class="header-page__logo">Web</span>
             Studio
           </a>
-          <ul class="site-nav list">
+          <ul class="site-nav">
             <li class="site-nav__item site-nav__item--current">
               <a class="site-nav__link site-nav__link--current" href="./index.html">Studio</a>
             </li>
@@ -38,9 +38,9 @@
             <li class="site-nav__item"><a class="site-nav__link" href="">Contacts</a></li>
           </ul>
         </nav>
-        <ul class="contact-list list">
+        <ul class="contact-list">
           <li class="contact-list__item">
-            <a class="contact-list__link link" href="mailto:info@devstudio.com">
+            <a class="contact-list__link" href="mailto:info@devstudio.com">
               <svg class="icon-envelope" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
@@ -48,7 +48,7 @@
             </a>
           </li>
           <li class="contact-list__item">
-            <a class="contact-list__link link" href="tel:+380961111111">
+            <a class="contact-list__link" href="tel:+380961111111">
               <svg class="icon-smartphone" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
@@ -67,10 +67,10 @@
         </div>
       </section>
       <!--benefits-->
-      <section class="section">
+      <section class="benefits">
         <div class="container">
           <h2 class="visually-hidden">Our benefits</h2>
-          <ul class="list-benefits list">
+          <ul class="list-benefits">
             <li class="list-benefits__item">
               <div class="container-icon">
                 <svg class="list-benefits__icon">
@@ -120,10 +120,10 @@
         </div>
       </section>
       <!--What we do-->
-      <section class="section function">
+      <section class="function">
         <div class="container">
           <h2 class="section__subtitle">What we do</h2>
-          <ul class="our-work list">
+          <ul class="our-work">
             <li class="our-work__item">
               <img src="images/img.jpg" alt="person writing code" width="370" height="294" />
               <p class="our-work__text">desktop apps</p>
@@ -145,16 +145,16 @@
         </div>
       </section>
       <!--Our team-->
-      <section class="section section-team">
+      <section class="section-team">
         <div class="container">
           <h2 class="section__subtitle">Our Team</h2>
-          <ul class="list-team list">
+          <ul class="list-team">
             <li class="list-team__item">
               <img src="images/product_designer.jpg" alt="Product Designer" width="270" height="260" />
               <div class="container__body">
                 <h3 class="list-team__subtitle">Christopher Walker</h3>
                 <p class="list-team__paragraph">Product Designer</p>
-                <ul class="list-social list">
+                <ul class="list-social">
                   <li class="list-social__item">
                     <a href="" class="list-social__link" aria-label="instagram">
                       <svg class="list-social__icon">
@@ -191,7 +191,7 @@
               <div class="container__body">
                 <h3 class="list-team__subtitle">Kylie Evans</h3>
                 <p class="list-team__paragraph">Frontend Developer</p>
-                <ul class="list-social list">
+                <ul class="list-social">
                   <li class="list-social__item">
                     <a href="" class="list-social__link">
                       <svg class="list-social__icon">
@@ -228,7 +228,7 @@
               <div class="container__body">
                 <h3 class="list-team__subtitle">Ryan Harris</h3>
                 <p class="list-team__paragraph">Marketing</p>
-                <ul class="list-social list">
+                <ul class="list-social">
                   <li class="list-social__item">
                     <a href="" class="list-social__link">
                       <svg class="list-social__icon">
@@ -265,7 +265,7 @@
               <div class="container__body">
                 <h3 class="list-team__subtitle">Tyler Moore</h3>
                 <p class="list-team__paragraph">UI Designer</p>
-                <ul class="list-social list">
+                <ul class="list-social">
                   <li class="list-social__item">
                     <a href="" class="list-social__link">
                       <svg class="list-social__icon">
@@ -301,10 +301,10 @@
         </div>
       </section>
       <!-- clients -->
-      <section class="section">
+      <section class="clients">
         <div class="container">
           <h2 class="section__subtitle">Regular Customers</h2>
-          <ul class="list-clients list">
+          <ul class="list-clients">
             <li class="list-clients__item">
               <a href="" class="list-clients__link">
                 <svg class="list-clients__icon">
@@ -355,15 +355,15 @@
     <footer class="footer-page">
       <div class="container footer-page__container">
         <div class="container-contact">
-          <a class="logo footer-page__logo link" href="./index.html">
+          <a class="logo footer-page__logo" href="./index.html">
             <span class="footer-page__logo--blue">Web</span>
             Studio
           </a>
           <address class="address">
-            <ul class="footer-contact list">
+            <ul class="footer-contact">
               <li class="footer-contact__item">
                 <a
-                  class="footer-contact__address link"
+                  class="footer-contact__address"
                   href="https://goo.gl/maps/LB5qMua8eFtqYcHc9"
                   target="_blank"
                   rel="noreferrer noopener nofollow"
@@ -374,17 +374,17 @@
                 </a>
               </li>
               <li class="footer-contact__item">
-                <a class="footer-contact__link link" href="mailto:info@devstudio.com">info@example.com</a>
+                <a class="footer-contact__link" href="mailto:info@devstudio.com">info@example.com</a>
               </li>
               <li class="footer-contact__item">
-                <a class="footer-contact__link link" href="tel:+12127724150">+1 212-772-4150</a>
+                <a class="footer-contact__link" href="tel:+12127724150">+1 212-772-4150</a>
               </li>
             </ul>
           </address>
         </div>
         <div class="container-join">
           <p class="container-join__subtitle">Find us on</p>
-          <ul class="list-social list">
+          <ul class="list-social">
             <li class="list-social__item">
               <a href="" class="list-social__link list-social__link--theme-dark" aria-label="instagram">
                 <svg class="list-social__icon">

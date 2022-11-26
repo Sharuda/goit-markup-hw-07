@@ -1,0 +1,39 @@
+.benefits{
+    @include section;
+}
+.list-benefits {
+    display: flex;
+    gap: 30px;
+}
+
+.container-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $background-color;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+}
+
+.list-benefits__icon {
+    width: 70px;
+    height: 70px;
+}
+
+.list-benefits__subtitle {
+    margin-top: 30px;
+    text-transform: uppercase;
+    line-height: 1.14;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.list-benefits__paragraph {
+    margin-top: 9px;
+    width: 270px;
+
+    color: $additional-color;
+    line-height: 1.71;
+}

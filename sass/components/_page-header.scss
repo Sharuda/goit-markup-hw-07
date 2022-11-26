@@ -1,0 +1,13 @@
+.header-page {
+    border-bottom: 1px solid $shadow-color;
+}
+
+.header-page__container {
+    display: flex;
+    align-items: center;
+}
+
+.header-page__logo {
+    color: $accent-color;
+    margin-right: -6px;
+}
