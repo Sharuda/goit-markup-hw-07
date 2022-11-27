@@ -4,9 +4,11 @@
 @import './utils/mixins';
 
 // base
+@import './base/normalize';
 @import "./base/base";
 @import './base/reset';
 @import './base/animation';
+
 
 // components
 
